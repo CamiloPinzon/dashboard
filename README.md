@@ -2,8 +2,6 @@
 
 A modern, responsive analytics dashboard built with React, TypeScript, and SASS. This dashboard provides a comprehensive view of business metrics with interactive charts and real-time data visualization.
 
-![Dashboard Preview](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000)
-
 ## Features
 
 - 📊 Interactive charts using Recharts
