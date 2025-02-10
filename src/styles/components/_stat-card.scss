@@ -1,0 +1,57 @@
+.stat-card {
+  background-color: $white;
+  border-radius: $border-radius;
+  padding: $spacing-6;
+  box-shadow: $shadow-md;
+
+  &__header {
+    @include flex(row, space-between, center);
+  }
+
+  &__content {
+    &-title {
+      color: $gray-500;
+      font-size: $font-size-sm;
+    }
+
+    &-value {
+      font-size: $font-size-2xl;
+      font-weight: bold;
+      margin-top: $spacing-1;
+    }
+  }
+
+  &__icon {
+    background-color: rgba($primary-color, 0.1);
+    padding: $spacing-3;
+    border-radius: 9999px;
+
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      color: $primary-color;
+    }
+  }
+
+  &__footer {
+    margin-top: $spacing-4;
+
+    &-change {
+      font-size: $font-size-sm;
+
+      &--positive {
+        color: #059669;
+      }
+
+      &--negative {
+        color: #dc2626;
+      }
+    }
+
+    &-text {
+      color: $gray-500;
+      font-size: $font-size-sm;
+      margin-left: $spacing-1;
+    }
+  }
+}
